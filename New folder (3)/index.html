@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BMW</title>
+    <style>
+      body {
+        background-color: white;
+
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #404040;
+        color: aliceblue;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+      h2 {
+        margin: 0;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      p {
+        margin-top: 0;
+        font-size: 1.1em;
+
+      }
+      nav {
+        background-color: #333;
+        height: 50px;
+        line-height: 50px;
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      nav ul li {
+        float: left;
+      }
+
+      nav ul li a {
+        display: block;
+        padding: 0 15px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        background-color: #444;
+      }
+
+      nav ul li.active a {
+        background-color: #444;
+      }
+      .car {
+        display: inline-block;
+        padding: 10px;
+        margin: 20px;
+		width: 550px;
+		height: 500px;
+      }
+	  .car2 {
+        display: inline-block;
+        padding: 10px;
+        margin: 20px;
+		width: 550px;
+		height: 500px;
+		margin-left: 50px;
+      }
+	  .car2 img{
+		width: 70%;
+		margin: 0 15% 0 15%;
+	  }
+      .car img {
+        width: 70%;
+		margin: 0 15% 0 15%;
+		
+      }
+	
+        .car2:hover{   
+            background-color: #b0b0b0;
+        }
+        .car:hover{   
+            background-color: #b0b0b0;
+        }
+
+      header img {
+        height: 80px;
+        width: auto;
+      }
+      .zoom {
+        transition: transform 0.2s; /* Animation */
+
+        margin: 0 auto;
+      }
+      .zoom:hover {
+        transform: scale(
+          1.2
+        ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img  src="bajo.png" alt="a" />
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://sr.wikipedia.org/wiki/BMW" target="_blank">O nama</a>
+        </li>
+        <li>
+          <a href="https://www.bmw.rs/sr/all-models.html" target="_blank"
+            >Modeli automobila</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="car2">
+      <h2>BMW I8</h2>
+      <img src="I8.jpg" />
+      <p
+        class=".zoom:hover { transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, itiewport) */ }"
+      >
+        BMW i8 je suprotnost BMW i3 modela. i3 je namijenjen gradu i ima potpuno
+        električni pogon dok je i8 sportski automobil za <br />uživanje u
+        sportskoj vožnji van grada. Uz 2 elektromotora i8 će imati i benzinski
+        motor.
+      </p>
+    </div>
+
+    <div class="car">
+      <h2>BMW M3</h2>
+      <img src="bmww.jpg" />
+      <p
+        class=".zoom:hover { transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }"
+      >
+        Prvi službeni BMW M3 je predstavljen na Amsterdamskom motor show-u 1984.
+        godine.Pokretao ga je
+        modificirani motor iz predhodnog M1 modela (M88/3). Ubrzanje do 100 km/h
+        iznosi 6,5 sekundi,<br />
+        a maksimalna brzina 245 km/h.
+      </p>
+    </div>
+
+    <div class="car">
+      <h2>BMW X5</h2>
+      <img src="x5.jpg" />
+      <p
+        class=".zoom:hover { transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }"
+      >
+        BMW X5 je luksuzni SUV (Sport Utility Vehicle) koji se u prodaji po prvi
+        put pojavio 2000. godine,<br />
+        a baziran je na platformi tadašnje generacije BMW-a serije 5. X5 je
+        ujedno bio i prvi terenac marke BMW.
+      </p>
+    </div>
+
+    <div class="car2">
+      <h2>BMW M5</h2>
+      <img src="ala.jpg" />
+      <p
+        class=".zoom:hover { transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }"
+      >
+        Cilindri/ventili 6/4 Obujam 3453 cm³ Promjer/hod 94,3/84 mm Najveća
+        snaga 210 kW (286ks)/6500 Najveći okretni moment 340 <br />Nm /4500
+        Mjenjač Getrag 280/5 - 5 brzinski ručni
+      </p>
+    </div>
+    <div class="car">
+      <h2>BMW E36</h2>
+      <img  src="kockica.jpg" />
+      <p
+        class=".zoom:hover { transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }"
+      >
+        U oktobru 1990. godine je fokus svetske automobilske industrije bio na
+        jednom mestu - u gradicu Miramas na jugu Francuske.<br />
+       Jedan je od najpoznatijih auta 90-ih.
+      </p>
+    </div>
+    <div class="car">
+      <h2>BMW X3</h2>
+      <img src="trica.jpg" />
+      <p
+        class=".zoom:hover { transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }"
+      >
+        BMW X3 je terenac koji se u prodaji po prvi put pojavio 2003. godine, a
+        baziran je na platformi tadašnje generacije BMW-a serije 3.<br />
+        Trenutačno je u drugoj generaciji.
+      </p>
+    </div>
+  </body>
+</html>
